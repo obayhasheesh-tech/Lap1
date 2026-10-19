@@ -1,0 +1,17 @@
++--------------------------------------------------+
+|                       Seat                       |
++--------------------------------------------------+
+| - seatNumber: int                                |
+| - passengerName: String                          |
++--------------------------------------------------+
+| + Seat(seatNumber: int)                          |
+| + getSeatNumber(): int                           |
+| + setSeatNumber(seatNumber: int): void           |
+| + getPassengerName(): String                     |
+| + setPassengerName(passengerName: String): void  |
+| + isEmpty(): boolean                             |
+| + toString(): String                             |
+| + static isValid(seatNumber: int): boolean       |
+| + static getRow(seatNumber: int): int            |
+| + static getColumn(seatNumber: int): int         |
++--------------------------------------------------+
